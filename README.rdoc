@@ -1,4 +1,4 @@
-== Portfolio Website
+== Portfolio Website (Under Construction 10/1/14)
 
 This application is the source code for my portfolio website which can be found at www.MarkAnthonyOrtega.com
 
