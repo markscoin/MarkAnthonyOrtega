@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'font-awesome-rails'
+group :production do
+  gem 'rails_12factor'
+end
