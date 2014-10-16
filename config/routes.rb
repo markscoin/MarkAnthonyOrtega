@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  match '/home/download', to: 'home#download', via: 'get'
   resources :home
   root 'home#index'
 
