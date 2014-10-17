@@ -26,15 +26,12 @@
   <div class="col-md-8">
     <div class="row" id="accordion">
     <div style="margin: 60px 0 30px 0;">
-      <button type="button" data-toggle="collapse" data-parent="#accordion" data-target="#projects" class="btn btn-nav btn-lg active_tab">Projects</button>
       <button type="button" data-toggle="collapse" data-parent="#accordion" data-target="#about" class="btn btn-nav btn-lg">About</button>
-      <button type="button" data-toggle="collapse" data-parent="#accordion" data-target="#contact" class="btn btn-nav btn-lg">Contact Info</button>
+      <button type="button" data-toggle="collapse" data-parent="#accordion" data-target="#projects" class="btn btn-nav btn-lg active_tab">Projects &nbsp; <span class="badge">1</span></button>
     </div>
-    <div class="col-md-10">
     <%= render "projects" %>
     <%= render "about" %>
     <%= render "contact" %>
-    </div>
     </div>
   </div>
  </div>
