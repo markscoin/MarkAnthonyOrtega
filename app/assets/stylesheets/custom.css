@@ -58,7 +58,7 @@ body {
 }
 
 .profile_area .profile_inner .social_icon a {
-    color: #b3b3b1;
+    color: gray;
     display: inline-block;
     font-size: 29px;
     line-height: 24px;
@@ -76,4 +76,46 @@ body {
 .modal-dialog {
     margin: 30px auto;
     width: 900px !important;
+}
+
+.project > tbody > tr > td {
+    padding: 10px 10px 60px 10px;
+    vertical-align: top;
+}
+
+.btn-nav {
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    color: #000000;
+}
+
+.btn-nav:hover {
+    border-color: #000;
+}
+
+#navigation > tbody > tr > td {
+    padding: 0 20px;
+    border-right: 1px solid black;
+}
+
+.navbar-nav > li > a {
+    font-size: 22px;
+    color: #777777;
+}
+
+.navbar-collapse {
+    margin-top: 60px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.pad20 {
+    padding: 15px;
+}
+
+.active_tab {
+    border-color: #000;
 }
