@@ -110,6 +110,8 @@ body {
 .collapsing {
     -webkit-transition: none;
     transition: none;
+    height: 0 !important;
+    display: none;
 }
 
 .pad20 {
@@ -132,4 +134,9 @@ body {
     border-radius: 40px;
     padding: 20px;
     width: 250px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
 }
