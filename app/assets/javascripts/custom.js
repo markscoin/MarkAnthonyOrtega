@@ -1,6 +1,13 @@
 $(document).ready(function(){
     $(".resume").tooltip({placement: 'bottom'});
-    
+
+    $("button").each(function(){
+        $(this).click(function(e){
+            if($(this).attr('class').indexOf("active_tab") != -1) {
+                e.stopPropagation();
+            }
+        });
+    });
 });
 
 $('.btn').click(function(){
@@ -10,6 +17,8 @@ $('.btn').click(function(){
         $(this).addClass('active');
     }
 });
+
+
 
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
